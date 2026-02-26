@@ -4,6 +4,9 @@ on:
   issues:
     types: [opened, labeled]
 
+permissions:
+  issues: write
+
 jobs:
   close-wontfix:
     runs-on: ubuntu-latest
